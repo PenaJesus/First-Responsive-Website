@@ -1,3 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+
 body{
   background-color: aqua;
+
+}
+
+
+.container-top{
+  display: flex;
+  height: 50%;
+  width: 100%;
+  background-color: blueviolet;
+  flex-direction: column;
+}
+
+.container-bottom{
+  display: flex;
+  height: 50%;
+  width: 100%;
+  background-color: chocolate;
+  flex-direction: column;
 }
