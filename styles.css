@@ -36,10 +36,14 @@ h1.site{
 
 .box{
   width: 1fr 1fr 1fr;
-  padding:10px
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h2.one{
+h2{
   text-decoration: overline coral 10px;
- 
+  display: flex;
+  justify-content: center;
 }
