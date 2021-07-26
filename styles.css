@@ -9,29 +9,31 @@ body {
   
 }
 
+
 .top {
   height: 50%;
-  background-color: coral;
+  background-color: #9B726F;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #EEB15B;
 }
 
 
 h1.site{
   margin-left: 1%;
-  
+  font-weight: 500;
 }
 
 .bottom {
   height: 50%;
-  background-color: black;
+  background-color: #EEB15B;
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
   padding: 10vh;
-  color: white;
+  color: #9B726F;
 }
 
 .box{
@@ -42,8 +44,74 @@ h1.site{
   justify-content: center;
 }
 
-h2{
-  text-decoration: overline coral 10px;
+h2.one{
+  text-decoration: overline #C46564 10px;
   display: flex;
   justify-content: center;
+}
+
+h2.two{
+  text-decoration: overline #B8C99D 10px;
+  display: flex;
+  justify-content: center;
+}
+
+h2.three{
+  text-decoration: overline #F0E999 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  body{
+    height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .top {
+    height: 25vh;
+    width: 100%;
+    background-color: #B8C99D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+
+  h1.site{
+    margin-left: 1%;
+    font-weight: 500;
+  }
+
+  .bottom {
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10vh;
+    color: black;
+  }
+
+  .box{
+    width: 1fr 1fr 1fr;
+    height: 1fr 1fr 1fr;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  h2{
+    text-decoration: overline coral 10px;
+    display: flex;
+    justify-content: center;
+  }
 }
